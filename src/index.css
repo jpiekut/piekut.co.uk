@@ -105,6 +105,7 @@ body {
 .tile {
   background-color: black;
   border: 1px solid white;
+  color: white;
   padding: 10px;
   font-size: 30px;
   text-align: center;

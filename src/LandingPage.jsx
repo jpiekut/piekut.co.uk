@@ -1,11 +1,11 @@
 import React, { useState, useEffect, Button, Alert, useRef } from 'react';
 import { get } from './Backend/fetch';
-
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 
-export default function SocialNetwork() {
+export default function LandingPage() {
 
-
+    const navigate = useNavigate();
 
     const elementRef = useRef(null);
 
@@ -39,7 +39,7 @@ export default function SocialNetwork() {
     })
 
     const shoot = () => {
-        alert("Great Shot!");
+        navigate('/about');
     }
 
     const increment = () => setClickCount((prev) => prev + 1)
@@ -58,10 +58,6 @@ export default function SocialNetwork() {
 
         <div className='landing'>
 
-            <div class="footer">
-                <button onClick={shoot}>Email</button>
-
-            </div>
             <div className='column'>
                 <div className="profile">
                     <div id="profile_img">
@@ -96,11 +92,11 @@ export default function SocialNetwork() {
                         {newsFeed.map(({ id, title, message, technologies }) => (
 
                             <section class='hidden'>
-                                <div class="tile">
+                                <button class="tile" onClick={shoot}>
                                     <div class="title">{title}</div>
                                     <div class="about_section">{message}</div>
                                     <div class="about_section">{technologies}</div>
-                                </div>
+                                </button>
                             </section>
 
                         ))}

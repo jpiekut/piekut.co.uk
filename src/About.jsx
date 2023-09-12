@@ -1,10 +1,14 @@
 import './index.css';
-import LandingPage from "./LandingPage";
 
 export default function About() {
 
-  return (<div >
-    <p>Hello</p>
+  return (
+    <div className='landing'>
+      <div className='tile'>
+        <div class="box">
+          <div class="title">Hello World</div>
+        </div>
+      </div>
     </div>);
 }
 
