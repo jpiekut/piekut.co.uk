@@ -1,10 +1,11 @@
 import React, { useState, useEffect, Button, Alert, useRef } from 'react';
 import { get } from './Backend/fetch';
+
 import './index.css';
 
-
-
 export default function SocialNetwork() {
+
+
 
     const elementRef = useRef(null);
 
@@ -103,6 +104,7 @@ export default function SocialNetwork() {
                             </section>
 
                         ))}
+
                         <h1 className='title'>Click Counter: {clickCount}</h1>
                     </div>
 
