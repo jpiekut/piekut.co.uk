@@ -100,7 +100,7 @@ body {
   background-color: black;
   padding: 1px;
   column-gap: 10px;
-  row-gap: 250px;
+  row-gap: 100px;
 }
 .tile {
   background-color: black;
