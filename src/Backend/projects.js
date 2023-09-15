@@ -2,33 +2,21 @@ const names = [
   "Munch 🍔", 
   "Spoiler Detector",
   "Third Year Project", 
-  "College Final Project",
-  "GP2",
-  "",
-  "",
-  ""
+  "College Final Project"
 ];
 
 const messages = [
   "Mobile application restaurant finder", 
   "Film review spoiler detection program",
   "Electric Vehicle Routing Problem solver", 
-  "Stock Control and Business Management System",
-  "Adresses of GPs for NHS Wales",
-  "",
-  "",
-  ""
+  "Stock Control and Business Management System"
 ];
 
 const technologies = [
 "Flutter & Django",
 "Python & NumPy",
 "Python",
-"Java",
-"SQL",
-"",
-"",
-""
+"Java"
 ];
 
 

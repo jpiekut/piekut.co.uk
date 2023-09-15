@@ -20,32 +20,23 @@ export default function About() {
     <div className='landing'>
       <button onClick={shoot}>Back</button>
 
-      <div id="blog_section">
+     
         <h1>Munch Application Screenshots.</h1>
 
-        <div id="blogs">
+        <div id="box">
 
           <section>
             <img src={myImage1} width="270px" height="480px" />
-          </section>
-
-          <section>
             <img src={myImage2} width="270px" height="480px" />
           </section>
 
           <section>
             <img src={myImage3} width="270px" height="480px" />
-          </section>
-
-          <section>
             <img src={myImage4} width="270px" height="480px" />
           </section>
 
           <section>
             <img src={myImage5} width="270px" height="480px" />
-          </section>
-
-          <section>
             <img src={myImage6} width="270px" height="480px" />
           </section>
 
@@ -54,7 +45,7 @@ export default function About() {
           </section>
 
         </div>
-      </div>
+      
 
       <div id="footer_blog">
         <a href="https://github.com/jpiekut" target="_blank">made on earth by team X7</a>

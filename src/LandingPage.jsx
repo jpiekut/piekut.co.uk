@@ -38,8 +38,10 @@ export default function LandingPage() {
         };
     })
 
-    const shoot = () => {
+    const shoot = (tile_type) => {
+        if ( tile_type == "Munch 🍔" ){
         navigate('/about');
+        }
     }
 
     const increment = () => setClickCount((prev) => prev + 1)
@@ -92,7 +94,7 @@ export default function LandingPage() {
                         {newsFeed.map(({ id, title, message, technologies }) => (
 
                             <section class='hidden'>
-                                <button class="tile" onClick={shoot}>
+                                <button class="tile" onClick={() => shoot(title)}>
                                     <div class="title">{title}</div>
                                     <div class="about_section">{message}</div>
                                     <div class="about_section">{technologies}</div>
