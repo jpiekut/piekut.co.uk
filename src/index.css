@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -27,7 +28,10 @@
   background: #55ACEE;
   color: white;
 }
-
+.fa-arrow-left{
+  background: black;
+  color: white;
+}
 
 .landing {  
   color: white;
@@ -70,6 +74,23 @@ body {
   
   font-family: Sans-Serif;
   text-align: right;
+}
+
+#footer_blog {
+  
+  padding: 8vh 5vw;
+  text-align: center;
+}
+
+
+.return_arrow{
+  font-size: 20px;
+  font-family: Sans-Serif;
+  text-align: left;
+}
+
+.return_arrow:hover {
+  color:yellow;
 }
 
 .title{

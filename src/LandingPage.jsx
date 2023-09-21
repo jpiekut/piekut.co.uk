@@ -97,7 +97,8 @@ export default function LandingPage() {
                                 <button class="tile" onClick={() => shoot(title)}>
                                     <div class="title">{title}</div>
                                     <div class="about_section">{message}</div>
-                                    <div class="about_section">{technologies}</div>
+                                    <div class="about_section"><i class="fa fa-code"></i>{technologies}</div>
+                                
                                 </button>
                             </section>
 

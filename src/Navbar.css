@@ -1,3 +1,5 @@
+/*@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");*/
+
 .navbar {
     background:transparent;
     /*position: fixed;  /*Set the navbar to fixed position */
@@ -7,5 +9,31 @@
     padding:10px 70px 10px 70px;
     width: 100%; /* Full width */
     right: 0;
-    background: white;
+    font-family: Sans-Serif;
+    background: black;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
   }

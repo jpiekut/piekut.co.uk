@@ -15,8 +15,9 @@ function App() {
         <title>Piekut</title>
         
       </Helmet>
-      <Navbar />
+      
       <Router>
+      <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />

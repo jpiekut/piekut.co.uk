@@ -15,11 +15,17 @@ export default function About() {
   const shoot = () => {
     navigate('/');
   }
+  /*
+  
+  */
 
   return (
     <div className='landing'>
-      <button onClick={shoot}>Back</button>
-
+      
+      
+      <div class="return_arrow">
+      <button onClick={shoot} class="fa fa-arrow-left"></button> 
+      </div>
      
         <h1>Munch Application Screenshots.</h1>
 
@@ -48,8 +54,11 @@ export default function About() {
       
 
       <div id="footer_blog">
-        <a href="https://github.com/jpiekut" target="_blank">made on earth by team X7</a>
+        <p1>made on earth by team X7</p1>
       </div>
     </div>);
 }
+/*
+
+*/
 
