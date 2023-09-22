@@ -59,6 +59,7 @@ export default function LandingPage() {
     return (
 
         <div className='landing'>
+           
 
             <div className='column'>
                 <div className="profile">
@@ -74,11 +75,11 @@ export default function LandingPage() {
 
                         <p>📌 Solar System</p>
                         <p>📍 Unavailable for hire</p>
-                        <span>
+                        <div className="socials">
                             <a href="https://github.com/jpiekut" class="fa fa-github"></a>
                             <a href="https://www.linkedin.com/in/jpiekut/" class="fa fa-linkedin"></a>
                             <a href="https://twitter.com/j_piekut" class="fa fa-twitter"></a>
-                        </span>
+                        </div>
                     </div>
 
 
@@ -93,14 +94,14 @@ export default function LandingPage() {
 
                         {newsFeed.map(({ id, title, message, technologies }) => (
 
-                            <section class='hidden'>
+                            <span class='hidden'>
                                 <button class="tile" onClick={() => shoot(title)}>
                                     <div class="title">{title}</div>
                                     <div class="about_section">{message}</div>
-                                    <div class="about_section"><i class="fa fa-code"></i>{technologies}</div>
+                                    <div class="about_section">{technologies}</div>
                                 
                                 </button>
-                            </section>
+                            </span>
 
                         ))}
 
@@ -112,6 +113,7 @@ export default function LandingPage() {
 
 
             </div>
+            
 
         </div>
 

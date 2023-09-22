@@ -20,7 +20,7 @@ export default function About() {
   */
 
   return (
-    <div className='landing'>
+    <div className='landing_about'>
       
       
       <div class="return_arrow">
